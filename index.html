@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Rabbit House Maid Cafe</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+		<style>
+			.navbar{
+				margin-bottom: 0;
+				border-radius: 0;
+				font-family: "Julius Sans One";
+			}
+			
+			footer{
+				background-color: #222;
+				padding: 25px;
+				color: #777;
+				font-family: "Josefin Sans";
+			}
+			
+			.caption p{
+				font-size: 15px;
+			}
+			
+			.container{
+				font-family: "Josefin Sans";
+				padding-top: 20px;
+			}
+			
+			span{
+				background: black;
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+			
+			.bg, .thumbnail{
+				background-color: #F7F7F2;
+			}
+			
+			.bgimg{
+				background-position: center;
+				background-size: cover;
+				background-image: url(img/maid_cafe.jpg);
+				font-family: "Josefin Sans";
+				
+			}
+			
+			@media (min-width:768px){
+				.jumbotron{
+					padding-top: 400px;
+				}
+				.bgimg{
+					min-height: 800px;
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Rabbit House</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="cardapio.html">Cardápio</a></li>
+						<li><a href="maids.html">Maids</a></li>
+						<li><a href="local.html">Localização</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="jumbotron text-center bgimg">
+			<h1><span>Rabbit House</span></h1>
+			<h2><span>Maid Cafe</span></h2>
+		</div>
+		<div class="container-fluid bg">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-12">
+						<h1>Seja bem-vindo!</h1>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="thumbnail">
+							<img class="img-responsive" src="img/index1.jpg" width="300" height="300" alt="Bebidas refrescantes"/>
+							<div class="caption">
+								<h3>Café</h3>
+								<p>Nosso café não somente é um amor, como também é estilizado e preparado com amor e carinho.</p>
+								<p>Escolha uma de nossas decorações fofinhas e relaxe após um dia complicado. O mundo se tornará um lugar sublime novamente.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="thumbnail">
+							<img class="img-responsive" src="img/index2.jpg" width="300" height="300" alt="Comida de animes"/>
+							<div class="caption">
+								<h3>Comidas fofinhas</h3>
+								<p>Além de terem um sabor doce, amável e leve, nossas comidas também prezam pelo seu design artístico!</p>
+								<p>Divirta-se com comidas fofinhas, feitas com todo o amor de nossas maids.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="thumbnail">
+							<img class="img-responsive" src="img/index3.jpg" width="300" height="300" alt="Café au lait art"/>
+							<div class="caption">
+								<h3>Latte Art</h3>
+								<p>Nosso café conta com as famosas artistas Neath e Kiyo, especializadas em fazer artes fofinhas com o café, conhecidas como "LatteArt".</p>
+								<p>Beba seu café com seus personagens favoritos. Ou seja, se as fofuras do menu principal não forem suficientes, poderá optar por esta opção.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="container-fluid text-center">
+			<p>2017 - Rabbit House</p>
+		</footer>
+	</body>
+</html>
